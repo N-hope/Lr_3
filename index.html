@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>I-Tех</title>
+  <script language="JavaScript">
+/*function T(){
+  var now = new Date();
+  var pib = "";
+  for(var i=1; i<6; i++){
+    var table = document.body.children[2];
+	var people = table.rows[i].cells[0].innerHTML;
+	pib = people;
+	
+	var DateHuman = new Date(table.rows[i].cells[1].innerHTML);
+	var y = parseInt(((now-DateHuman)/1000/3600/24/365));
+	var D = new Date(table.rows[i].cells[2].innerHTML = y + " років");
+	console.log(pib +" "+ y);
+  }
+}*/
+</script>
+<script src="src-JS/script.js" defer></script>
+<style> 
+table{
+border-spacing: 0;
+}
+td{
+border: 1px solid green;
+}
+</style>
+ </head>
+ <body>
+ <h1>Laboratorna robota #3(В6)</h1>
+	<p>На странице находится набор полей для ввода данных о пяти сотрудниках - фамилии и дата приема на работу. Рассчитать и вывести пользователю средний стаж работы на текущее время, в виде целого числа лет.	</p>
+<!--
+ <p> в виде числа месяцев можно. А для особо хитрых, и указыващих дату приёма в виде только лишь года - оценка будет за семестр столь же неконкретна. Она будет. В диапазоне от 0 до 100.</p>
+ -->
+	<table>
+<tr>
+    <td>ПІБ</td>
+	<td>Дата прийняття на роботу</td>
+    <td>Стаж роботи</td>
+</tr>
+<tr>
+	<td>Яневич Честислав Борисович</td>
+	<td>2007-9-27</td>
+    <td></td>
+	</tr>
+<tr>
+	<td>Аверченко Левко Богуславович</td>
+	<td>2000-11-13</td>
+    <td></td>
+	</tr>
+<tr>
+    <td>Богун Земфіра Августинівна</td>
+	<td>2015-12-1</td>
+    <td></td>
+	</tr>
+<tr>
+    <td>Хорошко Юрій Валентинович</td>
+	<td>2018-10-13</td>
+	<td></td>
+	</tr>
+<tr>
+    <td>Жила Юлія Макарівна</td>
+	<td>2000-7-15</td>
+	<td></td>
+	</tr>	
+    </table> 
+	<button onclick="T()">Click</button>
+</body>
+</html>
